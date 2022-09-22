@@ -53,7 +53,7 @@ export default class Details extends Component {
         <Link to= "/">
           <ButtonContainer> back to products</ButtonContainer>
         </Link>
-{/* 
+
         <ButtonContainer
         disabled={inCart ? true:false}
         onClick={() => {
@@ -61,7 +61,7 @@ export default class Details extends Component {
         }}
       >
         {inCart ? "inCart" : "add to cart"}
-        </ButtonContainer> */}
+        </ButtonContainer>
       </div>
       </div>
     </div>
